@@ -108,7 +108,7 @@ constructor() {
         e.preventDefault();
 
         if (!this.formCompleted()) {
-            return false;
+            //return false;
         }
        
         var errors = this.state.fieldErrors;
